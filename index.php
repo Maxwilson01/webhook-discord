@@ -4,7 +4,7 @@ require_once 'vendor/autoload.php';
 use \DiscordWebhooks\Client;
 use \DiscordWebhooks\Embed;
 
-$webhooks = new Client('https://discordapp.com/api/webhooks/640536548235935754/nVQAbXIbz_9pQ-kSCAxoOSVzBbqDGpxgCTLP3GYVGZClqL0pGc7EK3W0Q7kOkiaQ9wnB');
+$webhooks = new Client('URL_WEBHOOKS_AQUI');
 $message = new Embed();
 
 $message->description( 
